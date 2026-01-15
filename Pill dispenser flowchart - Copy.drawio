@@ -1,0 +1,336 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
+  <diagram name="Page-1" id="Zn1ytpu18OAXGSrgpjvU">
+    <mxGraphModel dx="1176" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BLSUQzwdTJzoCOF7WFfO-19" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BLSUQzwdTJzoCOF7WFfO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="Start" vertex="1">
+          <mxGeometry height="100" width="100" x="364" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Was the power to the application cut?" vertex="1">
+          <mxGeometry height="40" width="186" x="247.25" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-35" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-4" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="No" vertex="1">
+          <mxGeometry height="100" width="100" x="56.25" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-29" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-5" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Yes" vertex="1">
+          <mxGeometry height="100" width="100" x="615.75" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-61" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-62" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BLSUQzwdTJzoCOF7WFfO-3" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Start from the initial state and wait for the user to press either the center button, the right-hand button, or the left-hand button. Write state to the EEPROM memory and transmit it to the LoRaWAN network." vertex="1">
+          <mxGeometry height="80" width="300" x="143" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-30" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VzYOakhyeQH1bEQdIWKi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="&lt;h6 class=&quot;sr-only&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Was the power cut while the stepper motor was running?&lt;/span&gt;&lt;/h6&gt;" vertex="1">
+          <mxGeometry height="100" width="186" x="572.5" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-32" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-8" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Yes" vertex="1">
+          <mxGeometry height="100" width="100" x="668" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-33" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-9" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="No" vertex="1">
+          <mxGeometry height="100" width="100" x="513.75" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="If the power was cut during calibration, start the calibration from the beginning. If the power was cut during pill dispensing or during recalibration, recalibrate again. Write the state to the EEPROM memory and transmit the state to the LoRaWAN network." vertex="1">
+          <mxGeometry height="120" width="193" x="621.5" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="The app continues from the state where it left off. Transmit the state to the LoRaWAN network." vertex="1">
+          <mxGeometry height="90" width="103.5" x="512" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Is the stepper motor calibrated?" vertex="1">
+          <mxGeometry height="100" width="186" x="13" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="55F_GiOiJQzuh0u1nBMg-12" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-14" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="No" vertex="1">
+          <mxGeometry height="100" width="100" x="242" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="BLSUQzwdTJzoCOF7WFfO-5" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-15" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Yes" vertex="1">
+          <mxGeometry height="100" width="100" x="13" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-59" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-60" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BLSUQzwdTJzoCOF7WFfO-4" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VzYOakhyeQH1bEQdIWKi-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Start from the idle state and wait for the user to press either the center button, the right-hand button, or the left-hand button. Write state to the EEPROM memory and transmit it to the LoRaWAN network." vertex="1">
+          <mxGeometry height="80" width="290" x="84.5" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-44" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Press the right-hand button." vertex="1">
+          <mxGeometry height="30" width="88" x="342.5" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Print log entries." vertex="1">
+          <mxGeometry height="20" width="91" x="341" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-53" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Press the left-hand button." vertex="1">
+          <mxGeometry height="40" width="100" x="84.5" y="1145" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-65" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Press the center button." vertex="1">
+          <mxGeometry height="40" width="100" x="556.75" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-57" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VzYOakhyeQH1bEQdIWKi-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Is the stepper motor calibrated?" vertex="1">
+          <mxGeometry height="30" width="186" x="513.75" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-55" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-22" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="No" vertex="1">
+          <mxGeometry height="100" width="100" x="464" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-56" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-23" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Yes" vertex="1">
+          <mxGeometry height="100" width="100" x="651" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Print: &quot;Calibrate first.&quot;" vertex="1">
+          <mxGeometry height="30" width="130" x="449" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-77" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Pill dispensing state" vertex="1">
+          <mxGeometry height="30" width="131" x="635.5" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Calibrate. Write state to the EEPROM memory and transmit it to the LoRaWAN network." vertex="1">
+          <mxGeometry height="50" width="175" x="47" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-28" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="VzYOakhyeQH1bEQdIWKi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-34" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="VzYOakhyeQH1bEQdIWKi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-50" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Press the right-hand button." vertex="1">
+          <mxGeometry height="40" width="100" x="274.5" y="1145" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Print log entries." vertex="1">
+          <mxGeometry height="20" width="100" x="274.5" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="BLSUQzwdTJzoCOF7WFfO-10" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BLSUQzwdTJzoCOF7WFfO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Press the left-hand button." vertex="1">
+          <mxGeometry height="30" width="85" x="129.5" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-58" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="VzYOakhyeQH1bEQdIWKi-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-66" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="End" vertex="1">
+          <mxGeometry height="100" width="100" x="362" y="2220" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-68" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Was the pill dispensed in the pill dispensing state?" vertex="1">
+          <mxGeometry height="100" width="186" x="226.5" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-125" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-69" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Yes" vertex="1">
+          <mxGeometry height="100" width="100" x="655.5" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="55F_GiOiJQzuh0u1nBMg-1" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-70" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="No" vertex="1">
+          <mxGeometry height="100" width="100" x="479" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-73" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Read from EEPROM memory have seven rotations already been completed, or are the pills depleted?" vertex="1">
+          <mxGeometry height="100" width="186" x="523" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-110" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-74" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Waiting pill to drop state" vertex="1">
+          <mxGeometry height="30" width="143" x="44.5" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-75" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Refill the pills if they were depleted. In either case, return to the initial state. Write to EEPROM memory the state and the pills status and transmit them to the LoRaWAN network." vertex="1">
+          <mxGeometry height="90" width="195" x="608" y="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="BLSUQzwdTJzoCOF7WFfO-12" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VzYOakhyeQH1bEQdIWKi-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-76" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Pill dispensing state. Rotate the stepper motor by one turn. Write motor turn count to the EEPROM memory." vertex="1">
+          <mxGeometry height="70" width="186.5" x="226" y="1565" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-78" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="VzYOakhyeQH1bEQdIWKi-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-79" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="VzYOakhyeQH1bEQdIWKi-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55F_GiOiJQzuh0u1nBMg-4" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-82" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="No" vertex="1">
+          <mxGeometry height="100" width="100" x="66" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="55F_GiOiJQzuh0u1nBMg-6" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VzYOakhyeQH1bEQdIWKi-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-83" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Yes" vertex="1">
+          <mxGeometry height="100" width="100" x="499" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="55F_GiOiJQzuh0u1nBMg-5" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-84" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Record the pill drop in the EEPROM memory and transmit the info to the LoRaWAN network." vertex="1">
+          <mxGeometry height="60" width="186" x="560" y="2030" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-100" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-85" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Wait 30 seconds in turn state." vertex="1">
+          <mxGeometry height="40" width="186" x="319" y="2040" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-99" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Go back to pill dispensing state." vertex="1">
+          <mxGeometry height="40" width="186" x="319" y="2130" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-101" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="VzYOakhyeQH1bEQdIWKi-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-102" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="VzYOakhyeQH1bEQdIWKi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-105" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="VzYOakhyeQH1bEQdIWKi-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-108" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Pill dispensed" vertex="1">
+          <mxGeometry height="20" width="93" x="199" y="1890" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-120" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-111" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Yes" vertex="1">
+          <mxGeometry height="100" width="100" x="362" y="1790" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-117" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-112" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="No" vertex="1">
+          <mxGeometry height="100" width="100" x="57.25" y="1850" as="geometry" />
+        </mxCell>
+        <mxCell id="BLSUQzwdTJzoCOF7WFfO-15" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VzYOakhyeQH1bEQdIWKi-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-113" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Record the pill drop in the EEPROM memory and transmit the info to the LoRaWAN network." vertex="1">
+          <mxGeometry height="50" width="186" x="319" y="1940" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-122" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-114" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Record the pill was not dropped in the EEPROM memory and transmit the info to the LoRaWAN network." vertex="1">
+          <mxGeometry height="60" width="186" x="15.25" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="BLSUQzwdTJzoCOF7WFfO-17" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzYOakhyeQH1bEQdIWKi-121" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Pill not dropped state. Blink light 5 times." vertex="1">
+          <mxGeometry height="50" width="125.5" x="44.5" y="2100" as="geometry" />
+        </mxCell>
+        <mxCell id="BLSUQzwdTJzoCOF7WFfO-1" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="VzYOakhyeQH1bEQdIWKi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BLSUQzwdTJzoCOF7WFfO-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Calibrate. Write state to the EEPROM memory and transmit it to the LoRaWAN network." vertex="1">
+          <mxGeometry height="50" width="175" x="84.5" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="55F_GiOiJQzuh0u1nBMg-10" edge="1" parent="1" source="BLSUQzwdTJzoCOF7WFfO-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="55F_GiOiJQzuh0u1nBMg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BLSUQzwdTJzoCOF7WFfO-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Initialize hardware, join LoRaWAN (if available), write boot log and transmit status.&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="190" x="319" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="55F_GiOiJQzuh0u1nBMg-2" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="VzYOakhyeQH1bEQdIWKi-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55F_GiOiJQzuh0u1nBMg-3" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="VzYOakhyeQH1bEQdIWKi-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55F_GiOiJQzuh0u1nBMg-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Check the integrity of key state variables in the EEPROM memory" vertex="1">
+          <mxGeometry height="50" width="141" x="402.5" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="55F_GiOiJQzuh0u1nBMg-14" edge="1" parent="1" source="55F_GiOiJQzuh0u1nBMg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VzYOakhyeQH1bEQdIWKi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55F_GiOiJQzuh0u1nBMg-8" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Valid" vertex="1">
+          <mxGeometry height="100" width="100" x="290.75" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="6P0EhUYxngHlgOiXYi9J-7" edge="1" parent="1" source="55F_GiOiJQzuh0u1nBMg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="6P0EhUYxngHlgOiXYi9J-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55F_GiOiJQzuh0u1nBMg-9" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Not valid" vertex="1">
+          <mxGeometry height="100" width="100" x="621.5" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="55F_GiOiJQzuh0u1nBMg-13" edge="1" parent="1" source="55F_GiOiJQzuh0u1nBMg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="55F_GiOiJQzuh0u1nBMg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6P0EhUYxngHlgOiXYi9J-1" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="VzYOakhyeQH1bEQdIWKi-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6P0EhUYxngHlgOiXYi9J-2" edge="1" parent="1" source="VzYOakhyeQH1bEQdIWKi-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="VzYOakhyeQH1bEQdIWKi-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6P0EhUYxngHlgOiXYi9J-5" edge="1" parent="1" source="55F_GiOiJQzuh0u1nBMg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="55F_GiOiJQzuh0u1nBMg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6P0EhUYxngHlgOiXYi9J-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Reinitialize the key variables" vertex="1">
+          <mxGeometry height="40" width="100" x="521.5" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="6P0EhUYxngHlgOiXYi9J-8" edge="1" parent="1" source="6P0EhUYxngHlgOiXYi9J-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="VzYOakhyeQH1bEQdIWKi-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="380" />
+              <mxPoint x="470" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
