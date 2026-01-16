@@ -1,16 +1,73 @@
 #include <iostream>
+#include <string>
+#include <vector>
+#include "RunningAverage.h"
+using namespace std;
 
-// TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+int INPUT_LEN = 32;
+string handle_input();
+bool get_input(string& user_input);
+bool validate_float(const string& user_input, float& num);
+
 int main() {
-    // TIP Press <shortcut actionId="RenameElement"/> when your caret is at the <b>lang</b> variable name to see how CLion can help you rename it.
-    auto lang = "C++";
-    std::cout << "Hello and welcome to " << lang << "!\n";
-
-    for (int i = 1; i <= 5; i++) {
-        // TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        std::cout << "i = " << i << std::endl;
+    RunningAverage run_avg(0);
+    bool continue_loop = true;
+    while (continue_loop) {
+        string user_input = handle_input();
+        float num = 0;
+        if (validate_float(user_input, num)) {
+            if (num > 0) {
+                run_avg.add_to_list(num);
+                run_avg.print_list();
+                const float avg = run_avg.calc_avg();
+                cout << "Average: " << avg << "\n";
+            }
+            else
+                continue_loop = false;
+        }
     }
 
     return 0;
-    // TIP See CLion help at <a href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>. Also, you can try interactive lessons for CLion by selecting 'Help | Learn IDE Features' from the main menu.
+}
+
+string handle_input() {
+    string user_input;
+    bool input_received = false;
+    while (!input_received) {
+        cout << "Enter number: ";
+        input_received = get_input(user_input);
+    }
+    return user_input;
+}
+
+bool get_input(string& user_input) {
+    if (getline(cin, user_input)) {
+        if (user_input.size() > INPUT_LEN) {
+            cout << "Input too long (max " << INPUT_LEN << " characters).\n";
+            return false;
+        }
+        if (user_input.empty()) {
+            cout << "Empty input.\n";
+            return false;
+        }
+        return true;
+    }
+    return false;
+}
+
+bool validate_float(const string& user_input, float& num) {
+    try {
+        size_t index = 0;
+        const float value = stof(user_input, &index);
+        if (index != user_input.length()) {
+            cout << "Error: only numbers allowed.\n";
+            return false;
+        }
+        num = value;
+        return true;
+    }
+    catch (const invalid_argument&) {
+        cout << "Error: only numbers allowed.\n";
+        return false;
+    }
 }
