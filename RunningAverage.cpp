@@ -19,10 +19,13 @@ vector<float> RunningAverage::get_list() {
 }
 
 void RunningAverage::print_list() const {
-    for (const float num : num_list) {
-        cout << num << " ";
+    const int len = static_cast<int>(num_list.size());
+    for (int i = 0; i < len; i++) {
+        if (i + 1 < len)
+            cout << num_list[i] << ", ";
+        else
+            cout << num_list[i] << ".\n";
     }
-    cout << "\n";
 }
 
 void RunningAverage::add_to_list(const float num) {
