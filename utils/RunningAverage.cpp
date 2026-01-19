@@ -1,20 +1,12 @@
-#include <iostream>
-#include <vector>
 #include "RunningAverage.h"
+#include <iostream>
+#include <deque>
 
-RunningAverage::RunningAverage(const float initial_speed) {
+RunningAverage::RunningAverage(const int initial_speed) {
     speed = initial_speed;
 }
 
-void RunningAverage::accelerate(const float amount) {
-    speed += amount;
-}
-
-float RunningAverage::getSpeed() const {
-    return speed;
-}
-
-vector<float> RunningAverage::get_list() {
+deque<int> RunningAverage::get_list() {
     return num_list;
 }
 
@@ -28,7 +20,7 @@ void RunningAverage::print_list() const {
     }
 }
 
-void RunningAverage::add_to_list(const float num) {
+void RunningAverage::add_value(const int num) {
     if (num_list.size() < 5) {
         num_list.push_back(num);
     }
@@ -38,11 +30,11 @@ void RunningAverage::add_to_list(const float num) {
     }
 }
 
-float RunningAverage::calc_avg() const {
-    float sum = 0;
-    for (const float num : num_list) {
-        sum += num;
+double RunningAverage::get_average() const {
+    double sum = 0;
+    for (const int num : num_list) {
+        sum += static_cast<double>(num);
     }
-    const float avg = sum / static_cast<float>(num_list.size());
+    const double avg = sum / static_cast<double>(num_list.size());
     return avg;
 }

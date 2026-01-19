@@ -6,19 +6,19 @@ using namespace std;
 int INPUT_LEN = 32;
 string handle_input();
 bool get_input(string& user_input);
-bool validate_float(const string& user_input, float& num);
+bool validate_integer(const string& user_input, int& num);
 
 int main() {
     RunningAverage run_avg(0);
     bool continue_loop = true;
     while (continue_loop) {
         string user_input = handle_input();
-        float num = 0;
-        if (validate_float(user_input, num)) {
-            if (num > 0) {
-                run_avg.add_to_list(num);
+        int num = 0;
+        if (validate_integer(user_input, num)) {
+            if (num != 0) {
+                run_avg.add_value(num);
                 run_avg.print_list();
-                const float avg = run_avg.calc_avg();
+                const double avg = run_avg.get_average();
                 cout << "Average: " << avg << "\n";
             }
             else
@@ -54,10 +54,10 @@ bool get_input(string& user_input) {
     return false;
 }
 
-bool validate_float(const string& user_input, float& num) {
+bool validate_integer(const string& user_input, int& num) {
     try {
         size_t index = 0;
-        const float value = stof(user_input, &index);
+        const int value = stoi(user_input, &index);
         if (index != user_input.length()) {
             cout << "Error: only numbers allowed.\n";
             return false;

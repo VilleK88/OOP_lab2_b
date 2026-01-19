@@ -1,20 +1,18 @@
 #ifndef RUNNINGAVERAGE_H
 #define RUNNINGAVERAGE_H
-#include <vector>
+#include <deque>
 using namespace std;
 
 class RunningAverage {
 private:
-    vector<float> num_list;
-    float speed;
+    deque<int> num_list;
+    int speed;
 public:
-    explicit RunningAverage(float initial_speed);
-    void accelerate(float amount);
-    [[nodiscard]] float getSpeed() const;
-    vector<float> get_list() ;
+    explicit RunningAverage(int initial_speed);
+    deque<int> get_list() ;
     void print_list() const;
-    void add_to_list(float num);
-    [[nodiscard]] float calc_avg() const;
+    void add_value(int num);
+    [[nodiscard]] double get_average() const;
 };
 
 #endif
