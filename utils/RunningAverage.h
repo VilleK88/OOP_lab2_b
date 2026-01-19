@@ -6,9 +6,9 @@ using namespace std;
 class RunningAverage {
 private:
     deque<int> num_list;
-    int speed;
+    int deque_size;
 public:
-    explicit RunningAverage(int initial_speed);
+    explicit RunningAverage(int size);
     deque<int> get_list() ;
     void print_list() const;
     void add_value(int num);

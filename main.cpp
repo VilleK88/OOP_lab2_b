@@ -9,7 +9,7 @@ bool get_input(string& user_input);
 bool validate_integer(const string& user_input, int& num);
 
 int main() {
-    RunningAverage run_avg(0);
+    RunningAverage run_avg(5);
     bool continue_loop = true;
     while (continue_loop) {
         string user_input = handle_input();
@@ -59,14 +59,14 @@ bool validate_integer(const string& user_input, int& num) {
         size_t index = 0;
         const int value = stoi(user_input, &index);
         if (index != user_input.length()) {
-            cout << "Error: only numbers allowed.\n";
+            cout << "Error: only integer numbers allowed.\n";
             return false;
         }
         num = value;
         return true;
     }
     catch (const invalid_argument&) {
-        cout << "Error: only numbers allowed.\n";
+        cout << "Error: only integer numbers allowed.\n";
         return false;
     }
 }

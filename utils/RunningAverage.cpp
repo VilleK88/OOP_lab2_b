@@ -2,8 +2,8 @@
 #include <iostream>
 #include <deque>
 
-RunningAverage::RunningAverage(const int initial_speed) {
-    speed = initial_speed;
+RunningAverage::RunningAverage(const int size) {
+    deque_size = size;
 }
 
 deque<int> RunningAverage::get_list() {
@@ -21,7 +21,7 @@ void RunningAverage::print_list() const {
 }
 
 void RunningAverage::add_value(const int num) {
-    if (num_list.size() < 5) {
+    if (num_list.size() < deque_size) {
         num_list.push_back(num);
     }
     else {
