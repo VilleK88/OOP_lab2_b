@@ -17,12 +17,16 @@ int main() {
         if (validate_integer(user_input, num)) {
             if (num != 0) {
                 run_avg.add_value(num);
-                run_avg.print_list();
-                const double avg = run_avg.get_average();
-                cout << "Average: " << avg << "\n";
+                run_avg.print_list_and_avg();
             }
-            else
-                continue_loop = false;
+            else {
+                if (run_avg.list_is_empty())
+                    continue_loop = false;
+                else {
+                    run_avg.print_list_and_avg();
+                    continue_loop = false;
+                }
+            }
         }
     }
 
