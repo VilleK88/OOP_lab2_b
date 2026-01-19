@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
-#include <vector>
-#include "RunningAverage.h"
+#include "utils/RunningAverage.h"
 using namespace std;
 
 int INPUT_LEN = 32;
