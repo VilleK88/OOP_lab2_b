@@ -10,7 +10,6 @@ private:
 public:
     explicit RunningAverage(int size);
     deque<int> get_list() ;
-    void print_list_and_avg() const;
     void add_value(int num);
     [[nodiscard]] double get_average() const;
     [[nodiscard]] bool list_is_empty() const;
