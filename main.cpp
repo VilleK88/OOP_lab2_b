@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include "utils/RunningAverage.h"
-
+// test
 int constexpr INPUT_LEN = 32;
 std::string handle_input();
 bool get_input(std::string& user_input);
