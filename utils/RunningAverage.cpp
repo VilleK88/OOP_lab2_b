@@ -1,7 +1,9 @@
 #include "RunningAverage.h"
 #include <deque>
 
-RunningAverage::RunningAverage(const int size) : deque_size(size){}
+RunningAverage::RunningAverage(const int size) {
+    deque_size = size;
+}
 
 void RunningAverage::add_value(const int num) {
     if (num_list.size() < deque_size) {
@@ -22,5 +24,5 @@ double RunningAverage::get_average() const {
         const double avg = sum / static_cast<double>(num_list.size());
         return avg;
     }
-    return 0;
+    return 0.0;
 }
